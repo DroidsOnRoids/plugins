@@ -2,18 +2,18 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'webview_flutter'
+  s.name             = 'webview_flutter_dor'
   s.version          = '0.0.1'
   s.summary          = 'A WebView Plugin for Flutter.'
   s.description      = <<-DESC
 A Flutter plugin that provides a WebView widget.
 Downloaded by pub (not CocoaPods).
                        DESC
-  s.homepage         = 'https://github.com/flutter/plugins'
+  s.homepage         = 'https://github.com/DroidsOnRoids/plugins'
   s.license          = { :type => 'BSD', :file => '../LICENSE' }
-  s.author           = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
-  s.source           = { :http => 'https://github.com/flutter/plugins/tree/master/packages/webview_flutter' }
-  s.documentation_url = 'https://pub.dev/packages/webview_flutter'
+  s.author           = { 'Flutter Dev Team' => 'opensource@droidsonroids.pl' }
+  s.source           = { :http => 'https://github.com/DroidsOnRoids/plugins/tree/master/packages/webview_flutter' }
+  s.documentation_url = 'https://pub.dev/packages/webview_flutter_dor'
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'

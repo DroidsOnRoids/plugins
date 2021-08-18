@@ -18,7 +18,8 @@
 
 #pragma mark - WKNavigationDelegate conformance
 
-- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation {
+- (void)webView:(WKWebView *)webView didCommit:(WKNavigation *)navigation {
+  NSLog(@"commit");
   [_methodChannel invokeMethod:@"onPageStarted" arguments:@{@"url" : webView.URL.absoluteString}];
 }
 

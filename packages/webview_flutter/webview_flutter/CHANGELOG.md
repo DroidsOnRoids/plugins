@@ -1,3 +1,19 @@
+## 2.0.12+4
+
+* Add debug log
+
+## 2.0.12+3
+
+* Fix podspec
+
+## 2.0.12+2
+
+* Fix pod configuration
+
+## 2.0.12+1
+
+* replace didStartProvisionalNavigation callback on iOS with didCommit
+
 ## 2.0.12
 
 * Improved the documentation on using the different Android Platform View modes.
